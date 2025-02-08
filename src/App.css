@@ -1,0 +1,10 @@
+.app-container {
+  display: flex;
+  flex-direction: column !important;
+  justify-content: center;
+  width: 100%;
+  max-width: 1920px;
+  height:auto !important;
+  /* max-height: 1151px; */
+}
+

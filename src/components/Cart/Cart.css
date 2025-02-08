@@ -1,0 +1,325 @@
+.cart-container {
+  display: flex;
+  /* max-height: 805px; */
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: start;
+  max-width: 1640px;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+.cart-weight {
+  width: 100%;
+}
+.cart-height {
+  height: 38vh;
+}
+
+.total-box {
+  width: 100%;
+  max-width: 398px;
+  height: 216px;
+  background-color: darkgoldenrod;
+  box-sizing: border-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0px 3px 6px #00000029;
+  padding: 10px;
+  opacity: 1;
+  margin-top: 91px;
+  margin-left: 16px;
+}
+
+.cart {
+  width: 100%;
+  max-width: 1242px;
+  height: 100%;
+  padding-top: 22px;
+}
+
+.cart-details {
+  padding-left: 17px;
+  padding-bottom: 5px;
+  text-align: left;
+  font: normal normal 600 20px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #0f1317;
+  opacity: 1;
+}
+
+.recommended-course {
+  padding-top: 25px;
+  margin-bottom: 25px;
+  width: 100%;
+  max-width: 1242px;
+  height: 100%;
+  max-height: 333px;
+  box-sizing: border-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0px 3px 6px #00000029;
+  padding: 10px;
+  opacity: 1;
+}
+.recommended-course p {
+  text-align: left;
+  font: normal normal 600 18px/22px Montserrat;
+  letter-spacing: 0px;
+  color: #4e4e4e;
+  opacity: 1;
+}
+
+.total-amount {
+  text-align: left;
+  font: normal normal medium 18px/22px Montserrat;
+  letter-spacing: 0px;
+  color: #080808;
+  opacity: 1;
+}
+
+.total-price {
+  margin-top: -16px;
+  text-align: left;
+  font: normal normal 600 30px/37px Montserrat;
+  letter-spacing: 0px;
+  color: #080808;
+  opacity: 1;
+}
+
+.total-saved {
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  color: #75ba75;
+}
+
+.total-checkout-button {
+  border: none;
+  /* background: transparent url('../../assests//Group\ 65.svg') 0% 0% no-repeat padding-box; */
+  background: transparent 0% 0% no-repeat padding-box;
+  color: white;
+  font-weight: 800 !important;
+  background-color: #ff6738;
+  opacity: 1;
+  width: 100%;
+  max-width: 366px;
+  height: 51px;
+  object-fit: cover;
+}
+
+.total-checkout-button:hover {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1px 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.course-card {
+  width: 100%;
+  max-width: 1226px;
+  height: 100px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #f4f4f4;
+  border-radius: 0px 0px 4px 4px;
+  opacity: 1;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.course-info-box {
+  display: flex;
+  flex-direction: row !important;
+  padding-right: 25px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.course-card .course-info p {
+  font-weight: bold;
+}
+.course-title-logo-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.course-card h2 {
+  font-size: 1em;
+  margin: 0 16px 0 0;
+}
+
+.course-title {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: start !important;
+  justify-content: center !important;
+  padding-left: 18px;
+}
+
+.Educator {
+  font: normal normal medium 13px/15px Montserrat !important;
+  color: #00000029;
+}
+
+.course-card p {
+  font-size: 0.8em;
+  margin: 0 16px 0 0;
+}
+
+.course-card s {
+  color: #888;
+  font-weight: 400;
+}
+
+.course-card .actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.course-card button {
+  background-color: #ff6738;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 8px;
+  font-size: 0.8em;
+  white-space: nowrap;
+}
+
+.course-card button:hover {
+  background-color: #0056b3;
+}
+
+.course-card .add-to-wishlist {
+  text-align: left;
+  font: normal normal medium 16px/19px Montserrat;
+  letter-spacing: 0px;
+  color: #1873ce;
+  opacity: 1;
+}
+.course-card .add-to-wishlist:hover {
+  color: #ff6738;
+}
+.course-title-logo-div {
+  padding-left: 16px;
+}
+
+.course-card .course-title-logo-div .logo-div {
+  width: 79px;
+  height: 70px;
+  background: #f2f2f2 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.navigate-arrow {
+  background: transparent !important;
+  opacity: 1;
+}
+
+.removeFromCart {
+  background-color: transparent !important;
+  width: 100%;
+  max-width: 28px;
+  height: 31px;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  font: normal normal bold 20px/24px Montserrat !important;
+  width: 100%;
+  max-width: 90px;
+}
+
+@media (max-width: 1200px) {
+  .cart-container {
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+  .total-box {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .course-card {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+  }
+
+  .course-info-box {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 0;
+  }
+
+  .course-title-logo-div {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  .cart-container {
+    padding: 0 10px;
+  }
+
+  .cart-details {
+    font-size: 18px;
+  }
+
+  .course-card h2 {
+    font-size: 0.9em;
+  }
+
+  .course-card p {
+    font-size: 0.7em;
+  }
+
+  .course-card button {
+    font-size: 0.7em;
+    padding: 4px 8px;
+  }
+
+  .total-price {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cart-container {
+    padding: 0 5px;
+  }
+
+  .cart-details {
+    font-size: 16px;
+  }
+
+  .course-card h2 {
+    font-size: 0.8em;
+  }
+
+  .course-card p {
+    font-size: 0.6em;
+  }
+
+  .course-card button {
+    font-size: 0.6em;
+    padding: 3px 6px;
+  }
+
+  .total-price {
+    font-size: 20px;
+  }
+}

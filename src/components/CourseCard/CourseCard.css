@@ -1,0 +1,152 @@
+.course-card {
+  width: 100%;
+  max-width: 1226px;
+  height: 100px !important;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #f4f4f4;
+  border-radius: 0px 0px 4px 4px;
+  opacity: 1;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin-bottom: 16px !important;
+}
+
+.course-card .course-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 16px;
+}
+.logo-div {
+  width: 79px;
+  height: 70px;
+  background: #f2f2f2 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.course-card .course-info p {
+  font-weight: bold;
+}
+
+.course-title {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: start !important;
+  align-items: center;
+}
+.course-title-information {
+  display: flex;
+  flex-direction: column !important;
+  justify-content: start;
+}
+
+.course-title-button {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+.course-title-button button {
+  max-width: 78px;
+  max-height: 21px;
+  padding-top: 12px;
+}
+
+.course-card .educator {
+  width: 100px;
+  font-size: 0.7em;
+  font-weight: 100;
+  color: #00000029;
+  max-width: 117px !important;
+  text-align: left;
+  font: normal normal 300 16px/19px Montserrat;
+  letter-spacing: 0px;
+  opacity: 1;
+  margin-right: 16px;
+}
+
+.course-card p {
+  font-size: 0.8em;
+  margin: 0 16px 0 0;
+}
+
+.course-card s {
+  color: #888;
+  font-weight: 400;
+}
+
+.course-card .actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.course-card button {
+  background-color: #ff6738;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 8px;
+  font-size: 0.8em;
+  white-space: nowrap;
+}
+
+.course-card .add-to-cart button {
+  padding: 8px 16px;
+  font-size: 0.8em;
+  background-color: #ff6738;
+  white-space: nowrap;
+}
+
+.course-card button:hover {
+  background-color: #0056b3;
+}
+
+.add-to-wishlist {
+  background: transparent !important;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+}
+
+.navigate-arrow {
+  background: transparent !important;
+  opacity: 1;
+}
+
+.removeWishlist {
+  background-color: transparent !important;
+}
+.price {
+  display: flex;
+  justify-content: start !important;
+  gap: 4px;
+  text-align: left;
+  padding-right: 40px;
+  letter-spacing: 0px;
+  color: #080808;
+  opacity: 1;
+}
+
+.Visible {
+  display: none;
+}
+
+.cartWidth {
+  max-width: 1210.5px !important;
+}
+
+.educator-wishlist {
+  display: flex;
+  align-items: center;
+}
+

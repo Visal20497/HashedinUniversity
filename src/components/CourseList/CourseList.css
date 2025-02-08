@@ -1,0 +1,202 @@
+.course-list-container {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 1640px;
+  height: 876px;
+  margin: 0px 140px 0px 140px;
+}
+.sidebar-container {
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  max-width: 398px;
+  max-height: 876px;
+}
+
+.course-list-wrapper {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1226px;
+  margin-top: -12px;
+  box-sizing: border-box;
+}
+
+.course-list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0;
+}
+
+.course-list.blurred {
+  filter: blur(5px);
+}
+
+.course-top-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.course-heading {
+  margin-left: 17px;
+  margin-top: 16px !important;
+  text-align: left;
+  text-align: end;
+  font: normal normal 600 20px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #0f1317;
+  opacity: 1;
+}
+
+.course-select-box {
+  width: 182px;
+  height: 40px;
+  margin-top: 4px;
+  background: transparent 0% 0% no-repeat padding-box;
+  background-size: cover;
+  opacity: 1;
+  font: normal normal 400 16px/20px Montserrat;
+  color: #0f1317;
+  outline: none;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* appearance: none; 
+  -webkit-appearance: none;
+  -moz-appearance: none; 
+  position: relative;
+  object-fit: cover;  */
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+  width: 109px !important;
+  height: 20px !important;
+}
+
+.pagination button {
+  width: 20px !important;
+  height: 20px !important;
+  text-align: center;
+  font: normal normal medium 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #1d1d1d;
+  opacity: 1;
+  border: none;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #ff6738;
+  color: white;
+}
+
+.pagination button:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.popup {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 0.9;
+  z-index: 1000;
+}
+
+.wishlist-item {
+  text-align: left;
+  font: italic normal medium 24px/28px Montserrat !important;
+  color: #aaaaaa;
+  line-height: 200px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .course-list-container {
+    flex-direction: column;
+    margin: 0px 20px;
+    height: auto;
+  }
+
+  .sidebar-container {
+    max-width: 100%;
+    max-height: none;
+    padding-left: 0;
+  }
+
+  .course-list-wrapper {
+    max-width: 100%;
+    margin-top: 0;
+  }
+
+  .course-heading {
+    text-align: center;
+  }
+
+  .course-select-box {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .course-list-container {
+    margin: 0px 10px;
+  }
+
+  .course-heading {
+    font-size: 18px;
+  }
+
+  .course-select-box {
+    font-size: 14px;
+  }
+
+  .pagination {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .pagination button {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .course-list-container {
+    margin: 0px 5px;
+  }
+
+  .course-heading {
+    font-size: 16px;
+  }
+
+  .course-select-box {
+    font-size: 12px;
+  }
+
+  .pagination button {
+    width: 25px !important;
+    height: 25px !important;
+    font-size: 8px;
+  }
+}
